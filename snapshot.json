@@ -1,79 +1,184 @@
 {
- "format": "e9-snapshot",
- "version": 1,
- "campaign": "kells-1422",
- "revision": 2,
- "published": "2026-11-09T15:25:20.219Z",
- "ruleset": "mm",
- "site": "https://ialdabaoth.github.io/MateriaMundiRPG/",
- "module": {
-  "id": "kells-1422",
-  "title": "Kells, 1422",
-  "version": "0.1.0",
-  "kind": "campaign",
-  "license": "LicenseRef-Private",
-  "requires": {
-   "mm-core": "^0.1.0",
-   "isle-of-mists": "^0.4.11"
-  },
-  "exclude": [
-   "isle-of-mists/book/b3",
-   "isle-of-mists/book/b5",
-   "isle-of-mists/book/b4"
-  ],
-  "start": {
-   "module": "isle-of-mists",
-   "id": "arrive-at-the-keep"
-  },
-  "created": "2026-11-09"
- },
- "lock": {
-  "format": "e9-lock/1",
-  "module": "kells-1422",
-  "modules": [
-   {
-    "id": "mm-core",
-    "version": "0.1.0",
-    "hash": "sha256:3e9f0c7df603b44b0221cad5de15f6d726b50adce6f4adf87c6674d700abf632"
-   },
-   {
-    "id": "isle-of-mists",
-    "version": "0.4.11",
-    "hash": "sha256:1537023c6fb8c654e2ff46b26c144f46d9589a299b605591220fd26ada720983"
-   }
-  ]
- },
- "state": {
-  "format": "e9-campaign-state",
+  "format": "e9-snapshot",
   "version": 1,
   "campaign": "kells-1422",
-  "revision": 1,
-  "updated": "2026-11-09T15:09:33.455Z",
-  "rules": {
-   "ruleset": "mm",
-   "module": "mm-core",
-   "option": "",
-   "version": "0.1.0"
+  "revision": 3,
+  "published": "2026-11-09T16:43:21.671Z",
+  "ruleset": "mm",
+  "site": "https://ialdabaoth.github.io/MateriaMundiRPG/",
+  "module": {
+    "id": "kells-1422",
+    "title": "Kells, 1422",
+    "version": "0.1.0",
+    "kind": "campaign",
+    "license": "LicenseRef-Private",
+    "requires": {
+      "mm-core": "^0.1.0",
+      "isle-of-mists": "^0.4.11"
+    },
+    "exclude": [
+      "isle-of-mists/book/b3",
+      "isle-of-mists/book/b5",
+      "isle-of-mists/book/b4"
+    ],
+    "start": {
+      "module": "isle-of-mists",
+      "id": "arrive-at-the-keep"
+    },
+    "created": "2026-11-09"
   },
-  "clock": {
-   "start": "3507-05-01",
-   "hours": 8
-  },
-  "party": null,
-  "revealed": {
-   "isle-of-mists": {
-    "hexes": [],
-    "places": [
-     "baile-atha-troim"
+  "lock": {
+    "format": "e9-lock/1",
+    "module": "kells-1422",
+    "modules": [
+      {
+        "id": "mm-core",
+        "version": "0.1.0",
+        "hash": "sha256:3e9f0c7df603b44b0221cad5de15f6d726b50adce6f4adf87c6674d700abf632"
+      },
+      {
+        "id": "isle-of-mists",
+        "version": "0.4.11",
+        "hash": "sha256:1537023c6fb8c654e2ff46b26c144f46d9589a299b605591220fd26ada720983"
+      }
     ]
-   }
   },
-  "session": {
-   "number": 0,
-   "open": false
+  "state": {
+    "format": "e9-campaign-state",
+    "version": 1,
+    "campaign": "kells-1422",
+    "revision": 3,
+    "updated": "2026-11-09T15:48:09.157Z",
+    "rules": {
+      "ruleset": "mm",
+      "module": "mm-core",
+      "option": "",
+      "version": "0.1.0"
+    },
+    "clock": {
+      "start": "3507-05-01",
+      "hours": 8
+    },
+    "party": null,
+    "revealed": {},
+    "session": {
+      "number": 0,
+      "open": false
+    },
+    "characters": [
+      {
+        "id": "143ece83-0335-4c7f-8bbe-374bc732b38a",
+        "name": "Siećka",
+        "player": ""
+      },
+      {
+        "id": "ca987f9e-c30a-4d04-baf6-c9cda096ec2e",
+        "name": "Skryta",
+        "player": ""
+      },
+      {
+        "id": "dce93d66-065e-4381-884b-2a906e552141",
+        "name": "Żywia-Nocny",
+        "player": ""
+      },
+      {
+        "id": "2c8a663f-c604-417e-9925-1d9b5b82b185",
+        "name": "Jade",
+        "player": ""
+      },
+      {
+        "id": "d2f33393-dc06-4ebf-b7f3-9471ad06f2eb",
+        "name": "Sapphire",
+        "player": ""
+      },
+      {
+        "id": "f3242a7c-b084-43d5-ac07-e4b6a263e959",
+        "name": "Flint",
+        "player": ""
+      },
+      {
+        "id": "0ed4dcaf-e499-47ed-95c6-fcc0104d4782",
+        "name": "Opal",
+        "player": ""
+      },
+      {
+        "id": "9ca32830-2bc9-4540-b0f5-f9c45be71d03",
+        "name": "Chert",
+        "player": ""
+      },
+      {
+        "id": "126a5bb9-1ddd-470b-8d05-9c9859d1e50e",
+        "name": "Meadowblossom",
+        "player": "Erica"
+      }
+    ]
   },
-  "characters": []
- },
- "receipts": [],
- "private": {}
+  "receipts": [
+    "9085b46a-63fc-4d69-a2cb-61a7734320b4"
+  ],
+  "private": {
+    "143ece83-0335-4c7f-8bbe-374bc732b38a": {
+      "characters": {
+        "143ece83-0335-4c7f-8bbe-374bc732b38a": {
+          "knowledge": []
+        }
+      }
+    },
+    "ca987f9e-c30a-4d04-baf6-c9cda096ec2e": {
+      "characters": {
+        "ca987f9e-c30a-4d04-baf6-c9cda096ec2e": {
+          "knowledge": []
+        }
+      }
+    },
+    "dce93d66-065e-4381-884b-2a906e552141": {
+      "characters": {
+        "dce93d66-065e-4381-884b-2a906e552141": {
+          "knowledge": []
+        }
+      }
+    },
+    "2c8a663f-c604-417e-9925-1d9b5b82b185": {
+      "characters": {
+        "2c8a663f-c604-417e-9925-1d9b5b82b185": {
+          "knowledge": []
+        }
+      }
+    },
+    "d2f33393-dc06-4ebf-b7f3-9471ad06f2eb": {
+      "characters": {
+        "d2f33393-dc06-4ebf-b7f3-9471ad06f2eb": {
+          "knowledge": []
+        }
+      }
+    },
+    "f3242a7c-b084-43d5-ac07-e4b6a263e959": {
+      "characters": {
+        "f3242a7c-b084-43d5-ac07-e4b6a263e959": {
+          "knowledge": []
+        }
+      }
+    },
+    "0ed4dcaf-e499-47ed-95c6-fcc0104d4782": {
+      "characters": {
+        "0ed4dcaf-e499-47ed-95c6-fcc0104d4782": {
+          "knowledge": []
+        }
+      }
+    },
+    "9ca32830-2bc9-4540-b0f5-f9c45be71d03": {
+      "characters": {
+        "9ca32830-2bc9-4540-b0f5-f9c45be71d03": {
+          "knowledge": []
+        }
+      }
+    },
+    "126a5bb9-1ddd-470b-8d05-9c9859d1e50e": {
+      "characters": {
+        "126a5bb9-1ddd-470b-8d05-9c9859d1e50e": {
+          "knowledge": []
+        }
+      }
+    }
+  }
 }
