@@ -1,0 +1,13 @@
+{
+ "format": "e9-campaign-pointer",
+ "version": 1,
+ "campaign": "kells-1422",
+ "title": "Kells, 1422",
+ "read": "https://ialdabaoth.github.io/kells-1422/snapshot.json",
+ "post": "",
+ "adapters": {
+  "store": "static",
+  "mail": "manual"
+ },
+ "updated": "2026-11-09T15:15:26.854Z"
+}

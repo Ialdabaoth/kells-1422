@@ -1,0 +1,79 @@
+{
+ "format": "e9-snapshot",
+ "version": 1,
+ "campaign": "kells-1422",
+ "revision": 1,
+ "published": "2026-11-09T15:15:26.854Z",
+ "ruleset": "mm",
+ "site": "https://ialdabaoth.github.io/MateriaMundiRPG/",
+ "module": {
+  "id": "kells-1422",
+  "title": "Kells, 1422",
+  "version": "0.1.0",
+  "kind": "campaign",
+  "license": "LicenseRef-Private",
+  "requires": {
+   "mm-core": "^0.1.0",
+   "isle-of-mists": "^0.4.11"
+  },
+  "exclude": [
+   "isle-of-mists/book/b3",
+   "isle-of-mists/book/b5",
+   "isle-of-mists/book/b4"
+  ],
+  "start": {
+   "module": "isle-of-mists",
+   "id": "arrive-at-the-keep"
+  },
+  "created": "2026-11-09"
+ },
+ "lock": {
+  "format": "e9-lock/1",
+  "module": "kells-1422",
+  "modules": [
+   {
+    "id": "mm-core",
+    "version": "0.1.0",
+    "hash": "sha256:3e9f0c7df603b44b0221cad5de15f6d726b50adce6f4adf87c6674d700abf632"
+   },
+   {
+    "id": "isle-of-mists",
+    "version": "0.4.11",
+    "hash": "sha256:1537023c6fb8c654e2ff46b26c144f46d9589a299b605591220fd26ada720983"
+   }
+  ]
+ },
+ "state": {
+  "format": "e9-campaign-state",
+  "version": 1,
+  "campaign": "kells-1422",
+  "revision": 1,
+  "updated": "2026-11-09T15:09:33.455Z",
+  "rules": {
+   "ruleset": "mm",
+   "module": "mm-core",
+   "option": "",
+   "version": "0.1.0"
+  },
+  "clock": {
+   "start": "3507-05-01",
+   "hours": 8
+  },
+  "party": null,
+  "revealed": {
+   "isle-of-mists": {
+    "hexes": [],
+    "places": [
+     "baile-atha-troim"
+    ]
+   }
+  },
+  "session": {
+   "number": 0,
+   "open": false
+  },
+  "characters": []
+ },
+ "receipts": [],
+ "private": {}
+}
