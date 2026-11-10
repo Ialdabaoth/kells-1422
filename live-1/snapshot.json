@@ -1,0 +1,68 @@
+{
+ "format": "hexmarch-snapshot",
+ "version": 1,
+ "campaign": "kells-live-1",
+ "revision": 1,
+ "published": "2026-11-10T15:43:27.796Z",
+ "ruleset": "e9mm",
+ "site": "https://ialdabaoth.github.io/MateriaMundiRPG/",
+ "module": {
+  "id": "kells-live-1",
+  "title": "Kells Live 1",
+  "version": "0.1.0",
+  "kind": "campaign",
+  "license": "LicenseRef-Private",
+  "requires": {
+   "mm-core": "^0.1.0",
+   "isle-of-mists": "^0.4.11",
+   "hansa": "^0.2.2"
+  },
+  "option": "e9",
+  "created": "2026-11-10"
+ },
+ "lock": {
+  "format": "hexmarch-lock/1",
+  "module": "kells-live-1",
+  "modules": [
+   {
+    "id": "e9-core",
+    "version": "0.1.1",
+    "hash": "sha256:96d12eb56ff8fdef46b9fa6f441a4a7af145622ad3624b84535f63a9cc33efc0"
+   },
+   {
+    "id": "mm-core",
+    "version": "0.1.0",
+    "hash": "sha256:44a0cda85129ac0528ec99975cc81eae42933b7f12d4d282a802c6b7feffcb0c"
+   },
+   {
+    "id": "isle-of-mists",
+    "version": "0.4.11",
+    "hash": "sha256:8cbeaec07bd5180dbf38d8e9d040de1697c4060a3bade8e71b30f094fcdd4ade"
+   },
+   {
+    "id": "hansa",
+    "version": "0.2.2",
+    "hash": "sha256:e276a8d0c2babb4eb0a41a9d3f71c4196038a7c083e13bf105713f98ea475a76"
+   }
+  ]
+ },
+ "state": {
+  "format": "hexmarch-campaign-state",
+  "version": 1,
+  "campaign": "kells-live-1",
+  "revision": 1,
+  "updated": "2026-11-10T15:38:03.822Z",
+  "rules": {
+   "ruleset": "e9mm",
+   "module": "mm-core",
+   "option": "e9",
+   "version": "0.1.0"
+  },
+  "parties": [],
+  "active": "",
+  "revealed": {},
+  "characters": []
+ },
+ "receipts": [],
+ "private": {}
+}
