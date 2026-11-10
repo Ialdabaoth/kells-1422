@@ -1,0 +1,13 @@
+{
+ "format": "hexmarch-campaign-pointer",
+ "version": 1,
+ "campaign": "kells-live-1",
+ "title": "Kells Live 1",
+ "read": "https://raw.githubusercontent.com/Ialdabaoth/kells-1422/main/live-1/snapshot.json",
+ "post": "",
+ "adapters": {
+  "store": "github",
+  "mail": "manual"
+ },
+ "updated": "2026-11-10T15:43:27.796Z"
+}
