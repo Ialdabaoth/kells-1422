@@ -2,8 +2,8 @@
  "format": "hexmarch-snapshot",
  "version": 1,
  "campaign": "kells-live-1",
- "revision": 1,
- "published": "2026-11-10T15:43:27.796Z",
+ "revision": 2,
+ "published": "2026-11-10T16:43:39.821Z",
  "ruleset": "e9mm",
  "site": "https://ialdabaoth.github.io/MateriaMundiRPG/",
  "module": {
@@ -50,16 +50,41 @@
   "format": "hexmarch-campaign-state",
   "version": 1,
   "campaign": "kells-live-1",
-  "revision": 1,
-  "updated": "2026-11-10T15:38:03.822Z",
+  "revision": 3,
+  "updated": "2026-11-10T16:19:27.264Z",
   "rules": {
    "ruleset": "e9mm",
    "module": "mm-core",
    "option": "e9",
    "version": "0.1.0"
   },
-  "parties": [],
-  "active": "",
+  "parties": [
+   {
+    "id": "lovable-rogues",
+    "name": "Lovable Rogues",
+    "start": {
+     "module": "isle-of-mists",
+     "id": "arrive-at-the-keep"
+    },
+    "clock": {
+     "start": "3507-05-01",
+     "hours": 8
+    },
+    "session": {
+     "number": 0,
+     "open": false
+    },
+    "at": {
+     "base": "https://ialdabaoth.github.io/MateriaMundiRPG/modules/isle-of-mists/",
+     "module": "isle-of-mists",
+     "map": "atlas",
+     "hex": "world:6847:7951",
+     "label": "6847:7951",
+     "hours": 0
+    }
+   }
+  ],
+  "active": "lovable-rogues",
   "revealed": {},
   "characters": []
  },
