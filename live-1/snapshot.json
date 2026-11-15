@@ -2,8 +2,8 @@
  "format": "hexmarch-snapshot",
  "version": 1,
  "campaign": "kells-live-1",
- "revision": 4,
- "published": "2026-11-15T19:11:24.540Z",
+ "revision": 5,
+ "published": "2026-11-15T19:12:07.864Z",
  "ruleset": "e9mm",
  "site": "https://ialdabaoth.github.io/MateriaMundiRPG/",
  "module": {
@@ -44,8 +44,8 @@
   "format": "hexmarch-campaign-state",
   "version": 1,
   "campaign": "kells-live-1",
-  "revision": 4,
-  "updated": "2026-11-15T19:11:21.521Z",
+  "revision": 5,
+  "updated": "2026-11-15T19:12:04.849Z",
   "rules": {
    "ruleset": "e9mm",
    "module": "mm-core",
@@ -62,7 +62,7 @@
     },
     "clock": {
      "start": "3507-05-01",
-     "hours": 8
+     "hours": 8.005
     },
     "session": {
      "number": 0,
@@ -72,9 +72,9 @@
      "base": "https://ialdabaoth.github.io/MateriaMundiRPG/",
      "module": "isle-of-mists",
      "map": "atlas",
-     "hex": "world:6847:8253",
-     "label": "6847:8253",
-     "hours": 0
+     "hex": "world:6847:8352",
+     "label": "6847:8352",
+     "hours": 0.005
     }
    }
   ],
